@@ -1,9 +1,11 @@
 {
-  "version": "0.0.0-*",
+  "version": "0.0.0.-alpha",
+  "authors": [ "Alex KeySmith" ],
+  "description": "Do not used in production. Ported from https://code.google.com/archive/p/recaptcha/ into DNX, this is an experiment and shouldn't be used for production.",
   "compilationOptions": {
   },
   "dependencies": {
-    "Microsoft.AspNet.Mvc":  "5.2.3"
+    "Microsoft.AspNet.Mvc": "5.2.3"
   },
 
   "frameworks": {
@@ -16,6 +18,19 @@
         "System.Web": "",
         "System.Web.Abstractions": "",
         "System.Xml": ""
+      }
+    }
+  },
+  "configurations": {
+    "Debug": {
+      "compilationOptions": {
+        "define": [ "DEBUG", "TRACE" ]
+      }
+    },
+    "Release": {
+      "compilationOptions": {
+        "define": [ "RELEASE", "TRACE" ],
+        "optimize": true
       }
     }
   }
