@@ -1,0 +1,22 @@
+{
+  "version": "0.0.0-*",
+  "compilationOptions": {
+  },
+  "dependencies": {
+    "Microsoft.AspNet.Mvc":  "5.2.3"
+  },
+
+  "frameworks": {
+    "dnx46": {
+      "frameworkAssemblies": {
+        "System": "",
+        "System.Configuration": "",
+        "System.Core": "",
+        "System.Design": "",
+        "System.Web": "",
+        "System.Web.Abstractions": "",
+        "System.Xml": ""
+      }
+    }
+  }
+}
