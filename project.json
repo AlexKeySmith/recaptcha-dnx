@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0.-alpha",
+  "version": "0.0.1-alpha-*",
   "authors": [ "Alex KeySmith" ],
   "description": "Do not used in production. Ported from https://code.google.com/archive/p/recaptcha/ into DNX, this is an experiment and shouldn't be used for production.",
   "compilationOptions": {
